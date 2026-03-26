@@ -1,0 +1,80 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+.main-content {
+  max-width: 900px;
+}
+
+.post-article {
+  background: #ffffff;
+  border: 1px solid #e6e9ef;
+  border-radius: 10px;
+  box-shadow: 0 8px 20px rgba(17, 24, 39, 0.05);
+  padding: 2rem;
+  margin-top: 1rem;
+}
+
+.post-header {
+  border-bottom: 1px solid #e6e9ef;
+  margin-bottom: 1.5rem;
+  padding-bottom: 1rem;
+}
+
+.post-meta {
+  color: #57606a;
+  font-size: 0.95rem;
+  margin: 0 0 0.35rem;
+}
+
+.post-title {
+  margin: 0;
+  line-height: 1.25;
+}
+
+.post-lead {
+  color: #3d4a5d;
+  font-size: 1.1rem;
+  margin-top: 0.85rem;
+}
+
+.post-content h2 {
+  margin-top: 2rem;
+  padding-top: 0.5rem;
+  border-top: 1px solid #eef1f6;
+}
+
+.post-content p,
+.post-content li {
+  line-height: 1.75;
+}
+
+.post-content ul {
+  padding-left: 1.2rem;
+}
+
+.post-content pre {
+  border: 1px solid #d8dee8;
+  border-radius: 8px;
+  background: #0f172a;
+  color: #e2e8f0;
+  padding: 1rem;
+  overflow-x: auto;
+}
+
+.post-content code {
+  border-radius: 4px;
+  padding: 0.1rem 0.35rem;
+}
+
+.post-content pre code {
+  padding: 0;
+}
+
+@media (max-width: 768px) {
+  .post-article {
+    padding: 1.1rem;
+    border-radius: 8px;
+  }
+}
