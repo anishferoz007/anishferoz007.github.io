@@ -3,6 +3,15 @@
 
 @import "{{ site.theme }}";
 
+#forkme_banner,
+.forkme_banner {
+  display: none !important;
+}
+
+#header_wrap {
+  padding-top: 0 !important;
+}
+
 .main-content {
   max-width: 780px;
   font-size: 1rem;
