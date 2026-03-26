@@ -1,6 +1,6 @@
 ---
 layout: home
-title: Security Research
+title: Anish Feroz
 ---
 
 # Anish Feroz
@@ -13,3 +13,11 @@ This blog contains research on:
 - mobile security
 - vulnerability research
 - offensive security
+
+---
+
+## Latest Posts
+
+{% for post in site.posts %}
+- [{{ post.title }}]({{ post.url }}) — {{ post.date | date: "%Y-%m-%d" }}
+{% endfor %}
