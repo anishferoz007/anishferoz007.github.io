@@ -5,7 +5,7 @@ title: Anish Feroz
 
 Offensive Security Specialist | Penetration Tester | Security Researcher
 
-<div class="home-mid-align">
+<div class="home-mid-align" markdown="1">
 
 ## About
 
