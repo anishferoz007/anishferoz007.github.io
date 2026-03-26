@@ -51,6 +51,21 @@ body {
   display: none;
 }
 
+.home-mid-align {
+  text-align: center;
+}
+
+.home-mid-align p,
+.home-mid-align h2 {
+  text-align: center;
+}
+
+.home-mid-align ul {
+  display: inline-block;
+  margin: 0 auto 1rem;
+  text-align: left;
+}
+
 .inner {
   max-width: 1040px;
 }
