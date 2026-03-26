@@ -8,8 +8,11 @@
   display: none !important;
 }
 
-#header_wrap {
-  padding-top: 0 !important;
+#header,
+#header nav,
+#header nav ul,
+#header nav ul li.fork {
+  display: none !important;
 }
 
 .main-content {
