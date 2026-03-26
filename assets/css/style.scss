@@ -69,9 +69,13 @@
 .post-content h2 {
   margin-top: 1.5rem;
   margin-bottom: 0.65rem;
-  padding-top: 0.45rem;
-  border-top: 1px solid #273043;
+  padding-top: 0;
+  border-top: none;
   font-size: 1.3rem;
+}
+
+.post-content hr {
+  display: none;
 }
 
 .post-content p,
