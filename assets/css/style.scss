@@ -15,6 +15,10 @@
   display: none !important;
 }
 
+body {
+  padding-top: 0 !important;
+}
+
 .main-content {
   max-width: 100%;
   font-size: 1rem;
@@ -22,11 +26,29 @@
 
 .wrapper {
   max-width: 1240px;
+  padding-top: 0 !important;
 }
 
 .wrapper section {
   max-width: 1120px;
   width: 94%;
+  margin-top: 0 !important;
+  padding-top: 0 !important;
+}
+
+#title {
+  margin-top: 0 !important;
+  padding-top: 0 !important;
+}
+
+#title .credits,
+#title .credits.left,
+#title .credits.right {
+  display: none !important;
+}
+
+#title hr {
+  display: none;
 }
 
 .inner {
