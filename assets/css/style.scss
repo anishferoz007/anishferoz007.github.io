@@ -56,6 +56,8 @@ body {
 }
 
 .home-mid-align {
+  max-width: 860px;
+  margin: 0 auto;
   text-align: center;
 }
 
@@ -68,6 +70,12 @@ body {
   display: inline-block;
   margin: 0 auto 1rem;
   text-align: left;
+}
+
+.home-role-line {
+  margin: 0.4rem auto 1.1rem;
+  text-align: center;
+  font-size: 1rem;
 }
 
 .inner {

@@ -3,7 +3,7 @@ layout: default
 title: Anish Feroz
 ---
 
-Offensive Security Specialist | Penetration Tester | Security Researcher
+<p class="home-role-line">Offensive Security Specialist • Penetration Tester • Security Researcher</p>
 
 <div class="home-mid-align" markdown="1">
 
