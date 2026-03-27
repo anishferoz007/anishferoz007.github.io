@@ -1,6 +1,7 @@
 ---
 ---
 
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
 @import "{{ site.theme }}";
 
 #forkme_banner,
@@ -160,6 +161,7 @@ body {
 
 .post-content p,
 .post-content li {
+  font-family: 'Inter', sans-serif;
   font-size: 0.8rem;
   line-height: 1.3;
 }
