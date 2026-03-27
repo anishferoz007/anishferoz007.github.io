@@ -64,27 +64,46 @@ body {
   display: block;
 }
 
-.home-mid-align {
+.home-card {
+  background: #12161f;
+  border: 1px solid #273043;
+  border-radius: 8px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
+  width: 88%;
   max-width: 860px;
-  margin: 0 auto;
-  text-align: left;
+  padding: 1.35rem 1.6rem;
+  margin: 0.8rem auto 0;
 }
 
-.home-mid-align p,
-.home-mid-align h2 {
-  text-align: left;
+.home-card h2 {
+  font-size: 1.3rem;
+  margin: 1.2rem 0 0.5rem;
 }
 
-.home-mid-align ul {
-  display: block;
-  margin: 0 0 1rem 1.2rem;
-  text-align: left;
+.home-card p {
+  font-size: 0.88rem;
+  line-height: 1.35;
+  margin: 0 0 0.7rem;
+}
+
+.home-card ul {
+  font-size: 0.88rem;
+  line-height: 1.35;
+  margin: 0 0 0.75rem;
+  padding-left: 1.2rem;
+}
+
+.home-card hr {
+  border: none;
+  border-top: 1px solid #273043;
+  margin: 1rem 0;
 }
 
 .home-role-line {
-  margin: 0.4rem auto 1.1rem;
+  margin: 0 0 0.8rem;
   text-align: center;
-  font-size: 1rem;
+  font-size: 0.95rem;
+  color: #9aa4b5;
 }
 
 .inner {

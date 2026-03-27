@@ -3,17 +3,15 @@ layout: default
 title: Anish Feroz
 ---
 
-<p class="home-role-line">Offensive Security Specialist • Penetration Tester • Security Researcher</p>
+<div class="home-card" markdown="1">
 
-<div class="home-mid-align" markdown="1">
+<p class="home-role-line">Offensive Security Specialist • Penetration Tester • Security Researcher</p>
 
 ## About
 
 I am a cybersecurity professional specializing in **offensive security, exploit development, and vulnerability research**.
 
 I have conducted **300+ penetration tests** across web applications, mobile apps, networks, cloud infrastructure, IoT systems, and APIs.
-
----
 
 ## Areas of Research
 
@@ -24,8 +22,6 @@ I have conducted **300+ penetration tests** across web applications, mobile apps
 - Active Directory Attacks
 - Malware Analysis
 
----
-
 ## Selected Skills
 
 - Web Application Penetration Testing
@@ -35,8 +31,6 @@ I have conducted **300+ penetration tests** across web applications, mobile apps
 - Exploit Development
 - Cloud Security Assessments
 - Secure Code Review
-
----
 
 ## Latest Research
 
