@@ -54,8 +54,10 @@ body {
   margin: 0;
 }
 
-#title .credits {
-  display: inline;
+#title .credits,
+#title .credits.left,
+#title .credits.right {
+  display: none !important;
 }
 
 #title hr {
